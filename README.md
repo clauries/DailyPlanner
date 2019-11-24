@@ -6,15 +6,15 @@ An app to organize your calendar for the current day.
 
 ## Features
 * Boxes change color according to the time
-    Green: In the future
-    Red: Present hour
-    Grey: In the past
+    * Green: In the future
+    * Red: Present hour
+    * Grey: In the past
 * Save one time block at a time.
-    Once you've finished typing, hit the save button.
+    * Once you've finished typing, hit the save button.
 * Stored locally
-    This information is stored to your personal device. No need to worry about accidentally saving a personal task to a public or team calendar. 
+    * This information is stored to your personal device. No need to worry about accidentally saving a personal task to a public or team calendar. 
 * Current date
-    The date is always listed at the top. API utilized for this effect is Moment found at https://momentjs.com/.
+    * The date is always listed at the top. API utilized for this effect is Moment found at https://momentjs.com/.
 
 ## MIT License
 
