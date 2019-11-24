@@ -1,5 +1,6 @@
 // Adding time to header
 $(document).ready(function() {
+
   let date = $( ".date");
   let now = moment().format("MMM Do YY");
   date.text(now);
@@ -10,6 +11,7 @@ $(document).ready(function() {
 let currentHour = moment().hours();
 
 function hourUpdater() {
+
   $(".time-block").each(function () {
     var blockHour = parseInt($(this).attr("id").split("-")[2]);
 
@@ -46,10 +48,7 @@ $(document).ready(function() {
   let btn = $(".saveBtn");
 
   btn.on("click", function() {
-    console.log(
-    $(this).siblings('.time-block').val()
-    );
-    console.log($(this).attr("data-lsName"))
+
     localStorage.setItem($(this).attr("data-lsName"), $(this).siblings('.time-block').val())
   });
 
@@ -57,6 +56,7 @@ $(document).ready(function() {
   pullFromStorage();
 
   function pullFromStorage() {
+    
     var savedText9 = localStorage.getItem("text9");
     planArea9.value = savedText9;
 
