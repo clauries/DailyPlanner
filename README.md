@@ -10,7 +10,7 @@ An app to organize your calendar for the current day.
     * Red: Present hour
     * Grey: In the past
 * Save one time block at a time.
-    * Once you've finished typing, hit the save button.
+    * Once you've finished adding information to one time block, hit the save button on that row.
 * Stored locally
     * This information is stored to your personal device. No need to worry about accidentally saving a personal task to a public or team calendar. 
 * Current date
